@@ -1,6 +1,6 @@
 
 # Change these
-server '176.31.189.207', port: 2, roles: [:web, :app, :db], primary: true
+server '176.31.189.207', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:pkatek/pro.git'
 set :application,     'pro'
