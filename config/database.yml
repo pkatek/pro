@@ -51,6 +51,6 @@ production:
   <<: *default
   database: pro_production
   username: root
-  password: root
+ # password: root
 #  username: pro
- # password: <%= ENV['PRO_DATABASE_PASSWORD'] %>
+  password: <%= ENV['PRO_DATABASE_PASSWORD'] %>
